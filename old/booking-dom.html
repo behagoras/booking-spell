@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            border: 1px red solid;
+        }
+        .hero{
+            background:lavender;
+        }
+        .basic-card{
+            background:green;
+        }
+        .informative-card{
+            background:rosybrown;
+        }
+        .gallery{
+            background:cyan;
+        }
+        .features-slider__container{
+            background:magenta
+        }
+        .host-card{
+            background:yellow
+        }
+        .location{
+            background:turquoise
+        }
+        .policies{
+            background:violet;
+        }
+        .similar-adventures{
+            background:seagreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <nav class="hero__navigation">
+                <button class="hero__share">hero__share</button>
+                <button class="hero__like">hero__like</button>
+            </nav>
+            <h1 class="hero__title1">hero__title1</h1>
+        </div>
+        <div class="basic-card">
+            <span class="basic-card__duration">Viaje de 6 días</span>
+            <h2 class="basic-card__title">Safari de comida consciente en los Galápagos</h2>
+            <p class="location">Puerto Ayora, Ecuador</p>
+            <ul class="basic-card__tags">
+                <li class="basic-card__tag">Aventuras</li>
+                <li class="basic-card__tag">Snorkel</li>
+                <li class="basic-card__tag">Agricultura</li>
+                <li class="basic-card__tag">Causas Sociales</li>
+                <li class="basic-card__tag">Caminata</li>
+            </ul>
+            <button class="basic-card__cta">Causas Sociales</button>
+            <summary class="basic-card__short-description">Island hop around Galapagos for wild, upclose encounters and local food.</summary>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature__label">Duración</div>
+                    <div class="feature__value">6 días</div>
+                </div>
+                <div class="feature">
+                    <div class="feature__label">Nivel de actividad</div>
+                    <div class="feature__value">ligera</div>
+                </div>
+                <div class="feature">
+                    <div class="feature__label">Tu anfitrión te recibe</div>
+                    <div class="feature__value">En ingles, en español, en francés</div>
+                </div>
+                <div class="feature">
+                    <div class="feature__label">Incluye</div>
+                    <div class="feature__value">Equiipo, transporte, Bebidas, Alojamiento, Comida</div>
+                </div>
+            </div>
+        </div>
+        <article class="informative-card">
+            <h2 class="informative-card__subtitle"></h2>
+            <figure class="informative-card__image">
+                <img src="https://picsum.photos/200/200?random=19" alt="">
+            </figure>
+            <div class="informative-card__article">
+                <p class="informative-card__paragraph">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</p>
+                <p class="informative-card__paragraph">Quis id sit reprehenderit proident elit. Laboris nisi do minim est mollit sint reprehenderit officia consequat velit ad reprehenderit cillum excepteur. Dolore laboris quis laborum veniam labore nulla dolore aute commodo.</p>
+                <p class="informative-card__paragraph">Ea nostrud nulla aliquip occaecat aliquip. Veniam labore adipisicing occaecat non veniam reprehenderit. Qui ex cupidatat sunt ad fugiat in tempor do qui culpa deserunt non ullamco labore. Proident ea labore do qui.</p>
+                <p class="informative-card__paragraph">Eu aute ut eiusmod dolore dolor cillum commodo consequat ea ipsum non ad. Nostrud nisi irure laboris ullamco nostrud commodo cillum Lorem sit consequat. Id mollit nulla fugiat magna consectetur ex voluptate. Elit non eu adipisicing quis non sit ut in et est laboris. Do proident fugiat ut aliquip eiusmod tempor cillum in velit dolor aliquip.</p>
+                <p class="informative-card__paragraph">Culpa occaecat voluptate irure duis et dolore amet ad ullamco deserunt id proident voluptate anim. In adipisicing adipisicing ullamco exercitation duis esse dolore officia amet aliquip est proident adipisicing. Cillum ad duis exercitation ex occaecat laboris laborum ullamco aliqua. Veniam culpa nisi deserunt pariatur Lorem aliquip amet. Dolore do mollit sunt do est commodo.</p>
+            </div>
+        </article>
+        <div class="gallery">
+            <ul>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=20" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=12" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=13" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=14" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=15" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=16" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="gallery__image">
+                        <img src="https://picsum.photos/200/200?random=17" alt="">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div class="slider__container features-slider__container">
+            <h3 class="slider__title">Qué incluye</h3>
+            <div class="slider features-slider">
+                <div class="slider__element features-slider__element element">
+                    <figure class="element__icon">
+                        <img src="" alt="">
+                    </figure>
+                    <h4 class="element__title">Comida</h4>
+                    <p class="element__content">5 comidas, 3 desayunos, 3 cenas, 2 tasting menus, refrigerios</p>
+                </div>
+                <div class="slider__element features-slider__element element">
+                    <figure class="element__icon">
+                        <img src="" alt="">
+                    </figure>
+                    <h4 class="element__title">Alojamiento</h4>
+                    <p class="element__content">6 noches en un hotel de 5 estrellas</p>
+                </div>
+        </div>
+
+        </div>
+        <div class="informative-card host-card">
+            <h2 class="informative-card__title">Tu anfitrión</h2>
+            <h3 class="informative-card__subtitle">Jill & Javier & Co</h3>
+            <figure class="informative-card__image">
+                    <img src="https://picsum.photos/200/200?random=18" alt="">
+            </figure>
+            <div class="informative-card__article">
+                <p class="informative-card__paragraph">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</p>
+                <p class="informative-card__paragraph">Quis id sit reprehenderit proident elit. Laboris nisi do minim est mollit sint reprehenderit officia consequat velit ad reprehenderit cillum excepteur. Dolore laboris quis laborum veniam labore nulla dolore aute commodo.</p>
+                <p class="informative-card__paragraph">Ea nostrud nulla aliquip occaecat aliquip. Veniam labore adipisicing occaecat non veniam reprehenderit. Qui ex cupidatat sunt ad fugiat in tempor do qui culpa deserunt non ullamco labore. Proident ea labore do qui.</p>
+                <p class="informative-card__paragraph">Eu aute ut eiusmod dolore dolor cillum commodo consequat ea ipsum non ad. Nostrud nisi irure laboris ullamco nostrud commodo cillum Lorem sit consequat. Id mollit nulla fugiat magna consectetur ex voluptate. Elit non eu adipisicing quis non sit ut in et est laboris. Do proident fugiat ut aliquip eiusmod tempor cillum in velit dolor aliquip.</p>
+                <p class="informative-card__paragraph">Culpa occaecat voluptate irure duis et dolore amet ad ullamco deserunt id proident voluptate anim. In adipisicing adipisicing ullamco exercitation duis esse dolore officia amet aliquip est proident adipisicing. Cillum ad duis exercitation ex occaecat laboris laborum ullamco aliqua. Veniam culpa nisi deserunt pariatur Lorem aliquip amet. Dolore do mollit sunt do est commodo.</p>
+            </div>
+            <button class="informative-card__cta">Ponte en contacto con tu anfitrión</button>
+        </div>
+        <div class="location">
+            <h3 class="location__title">Dónde estarás</h3>
+            <a href="#"><p class="location__text">Paseo de la Reforma 222</p></a>
+            <figure class="location__map"></figure>
+        </div>
+        <div class="policies">
+            <h3 class="policies__title">Ten en cuenta lo siguiente</h3>
+            <div class="policies__container">
+                <div class="policy">
+                    <div class="policy__header"></div>
+                    <div class="policy__description" style="display: none">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</div>
+                </div>
+                <div class="policy">
+                    <div class="policy__header"></div>
+                    <div class="policy__description" style="display: none">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</div>
+                </div>
+                <div class="policy">
+                    <div class="policy__header"></div>
+                    <div class="policy__description" style="display: none">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</div>
+                </div>
+                <div class="policy">
+                    <div class="policy__header"></div>
+                    <div class="policy__description" style="display: none">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</div>
+                </div>
+                <div class="policy">
+                    <div class="policy__header"></div>
+                    <div class="policy__description" style="display: none">Consectetur qui tempor reprehenderit nisi cillum. Ex in amet sint aute enim enim. Est labore enim adipisicing enim velit minim reprehenderit eu tempor elit tempor ullamco aliquip.</div>
+                </div>
+            </div>
+        </div>
+        <div class="slider similar-adventures">
+            <h3 class="slider__title">Aventuras similares</h3>
+            <div class="slider features-slider">
+                <div class="slider__element features-slider__element element">
+                    <figure class="element__icon">
+                        <img src="https://picsum.photos/200/200?random=22" alt="">
+                    </figure>
+                    <h4 class="element__title">Visita los mágicos pueblos de Jalisco</h4>
+                    <p class="element__content">Desde $7,500 por persona</p>
+                </div>
+                <div class="slider__element features-slider__element element">
+                    <figure class="element__icon">
+                        <img src="https://picsum.photos/200/200?random=21" alt="">
+                    </figure>
+                    <h4 class="element__title">Visita los mágicos pueblos de Jalisco</h4>
+                    <p class="element__content">Desde $7,500 por persona</p>
+                </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

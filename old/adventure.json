@@ -1,0 +1,86 @@
+{
+  "adventure": {
+    "id": "101",
+    "url": "https://api.com/adventure/101/",
+    "title": "Safari de comida consciente en los Galápagos",
+    "meta-description": "Island hop around Galapagos for wild, upclose encounters and local food.",
+    "general": {
+      "location": {
+        "country": "Mexico",
+        "city": "Mexico City",
+        "full-address": "Paseo de la Reforma 222"
+      },
+      "category": "Causas Sociales",
+      "tags": [
+        "Aventuras",
+        "snorkel",
+        "agricultura",
+        "causas sociales",
+        "caminata"
+      ],
+      "duration": {
+        "type": "days",
+        "qty": "6"
+      },
+      "activity-type": "camping",
+      "host": {
+        "host": "https://api/host/302",
+        "host-id": "302",
+        "host-name": "Jill & Javier & Co",
+        "host-type": "business",
+        "host-picture": "https://img.com/imgurl.jpg",
+        "host-information": "lorem ipsum",
+        "host-languages": [
+          "Francais",
+          "English",
+          "Spanish"
+        ]
+      },
+      "includes": {
+        "food": "true",
+        "accommodation": false,
+        "equipment": false,
+        "transportation": true,
+        "drinks": true
+      },
+      "pictures": {
+        "picture": {
+          "url": "https://img.com/imgurl.jpg",
+          "title": "Paradising picture",
+          "alternative-text": "Paradising picture"
+        }
+      },
+      "activities-description": {},
+      "url": "https://api.com/activity/55/",
+      "activity-id": "55",
+      "activity-description": "lorem ipsum",
+      "activity-pictures": {
+        "activity-picture": {
+          "url": "https://img.com/imgurl.jpg",
+          "title": "Paradising picture",
+          "alternative-text": "Paradising picture"
+        },
+        "results": [
+          {
+            "title": "Swimming with sharks",
+            "Country": "Mexico",
+            "url": "https://api.com/adventure/19/"
+          },
+          {
+            "title": "Swimming with sharks",
+            "Country": "Mexico",
+            "url": "https://api.com/adventure/33/"
+          },
+          {
+            "title": "Swimming with sharks",
+            "Country": "Mexico",
+            "url": "https://api.com/adventure/22/"
+          }
+        ],
+        "activity-level": "light",
+        "img": "https://api/image/33",
+        "img-id": "33"
+      }
+    }
+  }
+}

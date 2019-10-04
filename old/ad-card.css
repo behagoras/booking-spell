@@ -1,0 +1,54 @@
+body {
+    font-size: 20px;
+  }
+  .white-text {
+    color: white;
+  }
+  .card {
+    width: 241px;
+    heigth: 500px;
+    display: relative;
+    background-color: #efeded;
+  }
+  
+  .card img {
+    position: relative;
+    width: 241px;
+  }
+  .card-header-text-container{
+    position: absolute;
+    width: 200px;
+    heigth: 100px;
+    top: 110px;
+    left: 28px;
+    text-align: center;
+  }
+  
+  .card-main {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .card-main-text {
+    text-aling: center;
+    width: 100%;
+  }
+  
+  .card-callToAction-container{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding-bottom: 10px;
+  }
+  .card-callToAction-btn {
+    width: 170px;
+    border: none;
+    border-radius: 15px;
+    margin: 2%;
+    background-color: black;
+    color: white;
+  }
+  .card-callToAction-btn:hover{
+    background-color: skyblue;
+  }
+  
+  
