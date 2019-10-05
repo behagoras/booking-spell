@@ -1,8 +1,12 @@
 import React from 'react';
-import '../assets/styles/components/ExpCard.scss';
+import '../assets/styles/components/ExpMainCard.scss';
+import Button from '@material-ui/core/Button';
+import Box from '@material-ui/core/Box';
+import SingleLineGrid from './SingleLineGridList';
 
-const ExpCard = () => (
-  <section className='ExpCard'>
+const ExpMainCard = () => (
+  <section className='experience-main'>
+    <SingleLineGrid />
     <div className='hero'>
       <nav className='hero__navigation'>
         <button type='button' className='hero__share'>hero__share</button>
@@ -45,4 +49,4 @@ const ExpCard = () => (
   </section>
 );
 
-export default ExpCard;
+export default ExpMainCard;
