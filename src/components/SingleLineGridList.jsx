@@ -2,20 +2,31 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import ShareIcon from '@material-ui/icons/Share';
+import IconButton from '@material-ui/core/IconButton';
+import Grid from '@material-ui/core/Grid';
+import '../assets/styles/components/SingleLineGridList.scss';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
+  },
+  toolbar: {
+    // gridArea: 1 / 1,
+    // display: 'grid',
+    width: '100%',
+    position: 'absolute',
+    zIndex: '1',
+    paddingRight: '16px',
   },
   gridList: {
+    zIndex: '0',
+    position: 'relative',
+    // gridArea: 1 / 1,
     flexWrap: 'nowrap',
     // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
-    transform: 'translateZ(0)',
+    // transform: 'translateZ(0)',
   },
   title: {
     color: theme.palette.primary.light,
@@ -46,6 +57,19 @@ export default function SingleLineGridList() {
 
   return (
     <div className={classes.root}>
+      <Grid
+        container
+        direction='row'
+        justify='flex-end'
+        className={classes.toolbar}
+      >
+        <IconButton>
+          <FavoriteBorderIcon />
+        </IconButton>
+        <IconButton>
+          <ShareIcon />
+        </IconButton>
+      </Grid>
       <GridList className={classes.gridList} cols={2.5}>
         {tileData.map((tile) => (
           <GridListTile key={tile.img}>
@@ -53,6 +77,9 @@ export default function SingleLineGridList() {
           </GridListTile>
         ))}
       </GridList>
+      {/* <FavoriteIcon />
+      <FavoriteBorderIcon />
+      <ShareIcon /> */}
     </div>
   );
 }
